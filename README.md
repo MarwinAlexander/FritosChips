@@ -1,0 +1,2 @@
+# FritosChips
+Práctica de JS
