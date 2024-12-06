@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'RadioClassic';
+    src: url('RadioClassic.ttf') format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 700px;  
+    height: 1500px ;
+    align-items: center;
+    justify-content: center;
+    background: #e6853a;
+    background: linear-gradient(to right, #ae642c, #e6853a);
+    padding: 0; 
+    margin: 0;
+}  
+   
+.contenido {
+   
+}
+
+.container-carousel {
+    position: relative;
+    width: 700px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 15px;
+    overflow: hidden;
+  
+}
+
+.carruseles {
+    width: 2000%;
+    height: 100px;
+    display: flex;
+
+}
+
+.slider-section {
+    width: calc(100% / 10);
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.slider-section img {
+    width: 100% top;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+   
+}
+
+.btn-left,
+.btn-right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0,-50%);
+    transition: .5s ease;
+    user-select: none;
+}
+
+.btn-left:hover,
+.btn-right:hover {
+    background-color: #333333d4;
+    color: #fff;
+}
+
+.btn-left {
+    left: 10px;
+}
+
+.btn-right {
+    right: 10px;
+}
+
+.slogan {
+   margin-right: 100px;
+   margin-left:  5px;
+   margin-top: 20px;
+
+    width:  700px;
+    height: 200px;
+    
+    background-color: transparent ;
+    
+    
+   text-align: justify;
+   font-family: 'RadioClassic', sans-serif;
+   font-size: 35px;
+   letter-spacing: 3px;
+   word-spacing: 0px;
+   -webkit-text-fill-color: #ffbd40;
+   -webkit-text-stroke: 0.5px black;
+}
+
+.lista {
+   text-align: center;
+   margin-top: 50px ; 
+ 
+   font-family: 'RadioClassic', sans-serif;
+   font-size: 50px;
+   letter-spacing: 3px;
+   word-spacing: 0px;
+   -webkit-text-fill-color: #ffbd40;
+   -webkit-text-stroke: 0.5px black;  
+   
+   background-color: #eb883b  ;
+   border-style: double;
+   border-width: 2px;
+   border-color: #894f22;
+  
+}
+
+.logo img{
+    width: 100% ;
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    display: center;
+    
+}
+
+.food{
+     width: 5px ;
+     height: 5px ;
+ }
+ 
+ .seleccion {
+     align: flex;
+ }
+
+q
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    
+    margin-top: 10px ; 
+    padding: 10px;
+   background-color: #eb883b ;
+   border-style: double;
+   border-width: 2px;
+   border-color: #894f22;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s,   background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #eb883b;
+    transform: scale(1.05);
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.expandable-image {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 10px ;
+    
+   background-color: #eb883b ;
+   border-style: double;
+   border-width: 2px;
+   border-color: #894f22;
+   border-radius: 5px;
+}
+
+.expandable-image:hover {
+    transform: scale(1.05);
+}
+
+.menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    margin-top: 20px;
+    
+   background-color: #eb883b ;
+   border-style: double;
+   border-width: 2px;
+   border-color: #894f22;
+   border-radius: 5px;
+}
+
+.menu.visible {
+    margin-top: 10px ;
+    max-height: 100%; /* Ajusta según el contenido */
+    opacity: 1;
+    
+}
+
+.contenido-de-la-presentacion {
+    
+    display:flex;
+    width: 100px;
+    height: 100px;
+}
+
+ footer {
+   position:fixed;
+   padding: 0.1, 0.1rem;   
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;   
+   background:#832121;
+   
+   text-align: center;
+   font-family: 'RadioClassic', sans-serif;
+   font-size: 15px;
+   letter-spacing: 3px;
+   word-spacing: 0px;
+   -webkit-text-fill-color: #ffbd40;
+   -webkit-text-stroke: 0.5px black;
+   
+   text-decoration: none;
+}
+
+a{
+   text-decoration: none;
+}
+
+
+
